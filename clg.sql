@@ -14,7 +14,8 @@ use colleges;
   
 SELECT*FROM student_of_bca;
 
-
+insert into student_of_bca (student_id,std_name,roll_no,address,ph_number,alt_ph_number,semester)
+values
 ( 101,'AAKASH',1,'BIHAR',9876765542,9878786543,1),
 ( 102,'ANAND',2,'Uttar pradesh',1234567890,0987654321,1),
 ( 103,'ANSHU',3,'haryana',9876765542,0979797869,1),
